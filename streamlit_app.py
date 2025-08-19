@@ -93,7 +93,6 @@ hours = 9.25
 predicted_score = model.predict([[hours]])[0]
 print(f"\nPredicted score for {hours} study hours = {predicted_score:.2f}%")
 
-pip install streamlit
 
 # streamlit_app.py
 
